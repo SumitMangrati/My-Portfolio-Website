@@ -1,0 +1,13 @@
+.education-container{
+    list-style: none;
+}
+.education-container ul li{
+    list-style: none;
+}
+.color-text{
+    font-size: 0.8rem;
+    color:#705edc ;
+}
+.color-text ion-icon{
+    margin-right: 5px;
+}

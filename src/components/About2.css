@@ -1,0 +1,179 @@
+.about-container{
+    padding: 6rem 5rem 5rem;
+    margin: 1.5rem 9rem 1rem 9rem;
+    box-shadow: 0 0 12px 12px rgba(0,0,0,0.1);
+    border-radius: 40px;
+    height: 500px;
+}
+.about-wrapper{
+    display: flex;
+    align-items: center;
+    margin: 5rem;
+}
+
+.image1{
+    height: 13rem;
+    box-shadow: 9px 2px 5px 1px rgba(0,0,0,0.3);
+    position: relative;
+    bottom: 2rem;
+}
+.image2{
+    height: 13rem;
+    box-shadow: 9px 2px 5px 1px rgba(0,0,0,0.3);
+    position: relative;
+    top: -5rem;
+    left: 7rem;
+}
+
+.about-holder{
+    margin-left: 10rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 7rem;
+}
+.about-holder{
+    font-family: Poppins;
+}
+.about-holder h1{
+    font-size: 2.7rem;
+}
+.description-holder{
+    font-size: 14px;
+}
+.about-links{
+    display: flex;
+    list-style: none;
+}
+.about-links a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding: 1.3rem 40px 0 0;
+    transition: 0.3s ease;
+}
+.about-links a:hover{
+    color: #705edc;
+}
+
+.about-route-holder{
+    margin-top: 3rem;
+}
+
+
+@media screen and (max-width:1200px) {
+    .about-container{
+        padding: 4rem 3rem 4rem;
+        margin: 1.5rem 5rem 1rem 5rem;
+        box-shadow: 0 0 12px 12px rgba(0,0,0,0.1);
+        border-radius: 40px;
+        height: 500px;
+    }
+    .image1{
+        height: 10rem;
+    }
+    .image2{
+        height: 10rem;
+    }
+    .about-wrapper{
+        display: flex;
+        align-items: center;
+        margin: 5rem 3rem;
+    }
+    .about-holder h1{
+        font-size: 2.4rem;
+    }
+    .description-holder{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .about-container{
+        margin: 4rem 1.5rem;
+    }
+    .about-wrapper{
+        display: flex;
+        align-items: center;
+        margin: 5rem 1rem;
+    }
+
+    .description-holder{
+        font-size: 12px;
+    }
+    .about-links a{
+        font-size: 14px;
+    }
+    .about-route-holder{
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .image1{
+        height: 6rem;
+    }
+    .image2{
+        height: 6rem;
+        position: relative;
+        top: -5rem;
+        left: 5rem;
+    
+    }
+    .about-container{
+        padding: 4rem 1.8rem;
+    }
+    .about-holder{
+        margin-left: 6rem;
+    }
+    .about-holder h1{
+        font-size: 2rem;
+    }
+    .description-holder{
+        font-size: 10px;
+    }
+    .about-links a{
+        font-size: 12px;
+    }
+    .about-route-holder{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:500px) {
+    .about-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-photo-container{
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        margin-left: 02rem;
+    }
+    .image1{
+        bottom: 7rem;
+    }
+    .image2{
+        left: -1.5rem;
+        top: -3rem;
+    }
+
+    .about-container{
+        padding: 2.5rem 1rem 7rem;
+    }
+    .about-holder{
+        margin-right: 5.6rem;
+    }
+    .about-holder h1{
+        text-align: center;
+    }
+    .description-holder{
+        text-align: center;
+    }
+    .about-links a{
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        padding: 1.5rem 50px 0 0;
+    }
+}
+

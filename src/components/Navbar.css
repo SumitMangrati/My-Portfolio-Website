@@ -1,0 +1,155 @@
+.navbar{
+    height: 44px;
+    box-shadow: 0 3px 20px 2px rgba(0,0,0,0.1);
+    padding: 0.6rem 1rem 1rem 0rem;
+    font-family: Poppins;
+    position: sticky;
+    width: 100%;
+    z-index: 999;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-link li{
+    padding: 10px;
+    margin: 0 6px;
+    list-style: none;
+}
+.nav-link li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+.nav-link li a:hover{
+    transform: scale(1.05) translateY(4px);
+}
+.navbar-logo img{
+    height: 44px;
+}
+
+.menu-icon{
+    display: none;
+}
+.mobile-links{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.mobile-links li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 2rem;
+}
+.mobile-links li p{
+    text-align: center;
+}
+@media  screen and (max-width:960px) {
+    .container ul{
+        background: white;
+        z-index: 999;
+    }
+    .navbar{
+        height: 47px;
+    }
+    .container{
+        justify-content: space-between;
+        padding: 0 3rem;
+        align-items: center;
+    }
+    .nav-connect{
+        margin-right:3.5rem;
+    }
+    .menu-icon{
+        display: block;
+        position: absolute;
+        right: 4rem;
+        transform: scale(1.6);
+    }
+    .nav-link{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        min-height: 90vh;
+        position: absolute;
+        top: 83px;
+        left: -100%;  
+        transition: 0.25s linear;
+    }
+    .nav-link.active{
+        left: 0;
+    }
+    .container ul li{
+        text-align: center;
+        width: 100%;
+        display: table;
+        padding: 1.2rem;
+    }
+    
+}
+
+
+@media screen and (max-width:500px) {
+    .navbar{
+        height: 24px;
+    }
+    .navbar-logo img{
+        height: 25px;
+    }
+    .navbar-logo{
+        position: absolute;
+        left: 9px;
+        bottom: 6px;
+    }
+    .container{
+        padding: 0.3rem 5rem;
+    }
+    .menu-icon{
+        display: block;
+        position: absolute;
+        right: 1.5rem;
+        bottom: 12px;
+        transform: scale(1.6);
+    }
+    .nav-connect{
+        position: absolute;
+        right: 0rem;
+        top: 12px;
+    }
+    .container ul{
+        border-radius: 12px;
+        background:transparent;
+        backdrop-filter: blur(3px);
+    }
+    .nav-connect lord-icon{
+        height: 24px;
+    }
+    .nav-link{
+        z-index: 999;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 80%;
+        min-height: 2vh;
+        position: absolute;
+        top: 50px;
+        left: -100%;  
+        transition: 0.25s linear;
+    }
+    .nav-link.active{
+        left: 9.5%;
+    }
+}

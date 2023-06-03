@@ -1,0 +1,283 @@
+.hero{
+    min-height: 90vh;
+    width: 100%;
+}
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:7rem 12rem;
+}
+
+
+.hero-icons{
+    font-size: 1rem;
+    position: relative;
+    right: 3em;
+    top: 1rem;
+    
+}
+.hero-icons div{
+    padding: 2px;
+}
+
+.ig-icon{
+    animation: 0.3s ease-in-out;
+    color: #705edc ;
+}
+.ig-icon ion-icon:hover{
+    transform: scale(1.1);
+    color: #bd22a2;;
+}
+.lin-icon {
+    animation: 0.3s ease-in-out;
+    color: #705edc ;
+}
+.lin-icon ion-icon:hover{
+    transform: scale(1.1);
+    color:#007fbc;
+}
+.gh-icon{
+    animation: 0.3s ease-in-out;
+    color:#705edc;
+}
+.gh-icon ion-icon:hover{
+    transform: scale(1.1);
+    color: black;
+}
+.test{
+    display: flex;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    left: 2.5rem;
+    
+}
+.hero-text h1{
+    margin: 0;
+    font-size: 2.5rem;
+}
+.test{
+    position: relative;
+    bottom: 15px;
+    font-size: 1rem;
+}
+.des{
+    position: relative;
+    bottom: 10px;
+    font-size: 0.8rem;
+    opacity: 0.76;
+}
+
+.blob-container{
+    position: relative;
+    left: 9rem;
+}
+.blob{
+    height: 200px;
+    width: 200px;
+    background: url(/public/images/img.png);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    overflow: hidden;
+    border-radius: 28% 45% 45% 78% / 23% 45% 67% 78%;
+    animation: move 20000ms linear infinite;
+}
+@keyframes move{
+    0%,100%{
+        border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+    }
+    33%{
+        border-radius: 42% 28% 48% 45% / 28% 28% 72% 72%;
+    }
+    66%{
+        border-radius: 90% 56% 56% 90% / 67% 40% 34% 90%;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .hero-text h1{
+        font-size: 2rem;
+    }
+    .blob{
+        height: 180px;
+        width: 180px;
+    }
+    .blob-container{
+        position: relative;
+        left: 7rem;
+    }
+}
+
+@media screen and (max-width:812px) {
+    .hero-text h1{
+        font-size: 1.7rem;
+    }
+    .blob{
+        height: 150px;
+        width: 150px;
+    }
+    .blob-container{
+        position: relative;
+        left: 6rem;
+    }
+    .hero-container{
+        padding: 7rem 10rem;
+    }
+    .hero-icons{
+        font-size: 1rem;
+        position: relative;
+        right: 1em;
+        top: 1rem;
+    }    
+}
+
+@media screen and (max-width:687px) {
+    .hero-text h1{
+        font-size: 1.5rem;
+    }
+    .blob{
+        height: 140px;
+        width: 140px;
+    }
+    .blob-container{
+        position: relative;
+        left: 3rem;
+    }
+    .hero-container{
+        padding: 7rem 7rem;
+    }
+    .hero-icons{
+        font-size: 0.9rem;
+        position: relative;
+        right: 0rem;
+        top: 1rem;
+    }    
+}
+
+
+@media screen and (max-width:687px) {
+    .hero-text h1{
+        font-size: 1.5rem;
+    }
+    .blob{
+        height: 140px;
+        width: 140px;
+    }
+    .blob-container{
+        position: relative;
+        left: 3rem;
+    }
+    .hero-container{
+        padding: 7rem 7rem;
+    }
+    .hero-icons{
+        font-size: 0.9rem;
+        position: relative;
+        right: 0rem;
+        top: 1rem;
+    }    
+}
+
+@media screen and (max-width:687px) {
+    .hero-text h1{
+        font-size: 1.5rem;
+    }
+    .blob{
+        height: 140px;
+        width: 140px;
+    }
+    .blob-container{
+        position: relative;
+        left: 3rem;
+    }
+    .hero-container{
+        padding: 7rem 7rem;
+    }
+    .hero-icons{
+        font-size: 0.9rem;
+        position: relative;
+        right: 0rem;
+        top: 1rem;
+    }    
+}
+
+@media screen and (max-width:500px) {
+
+    .hero-text h1{
+        font-size: 1.5rem;
+    }
+    .blob{
+        height: 140px;
+        width: 140px;
+    }
+    .hero-container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        padding:10rem 2rem 0rem;
+    }
+    .blob{
+        height: 140px;
+        width: 140px;
+    }    
+    .blob-container{
+        position: relative;
+        bottom: 4rem;
+        left:28%;
+    }
+    .hero-text{
+        position: relative;
+        bottom: 2rem;
+    }
+    .hero-text h1{
+        font-size: 1.9rem;
+        position: relative;
+        left: 4%;
+    }
+    .test{
+        position: relative;
+        bottom: 8px;
+        left:5%;
+    }
+    .des{
+        position: relative;
+        bottom: 0;
+        font-size: 0.7rem;
+    }
+    .hero-icons{
+        display: flex;
+    }
+    .hero-icons div{
+        margin: 5px;
+        position: relative;
+        bottom: 2rem;
+        left: 2rem;
+    }
+    .hero-icons ion-icon{
+        font-size:1rem
+    }
+    .hero-contact-button {
+        height: 2.5rem;
+        width: 8.4rem;
+        border-radius: 8px;
+        border: none;
+        background: #705edc ;
+        color: white;
+        margin-top: 24px;
+        position: relative;
+        left: 18%;
+        transition: 0.3s ease-in-out;
+    }
+    .hero-contact-button ion-icon{
+        margin: 0 5px;
+        position: relative;
+        top: 2px;
+    } 
+}
