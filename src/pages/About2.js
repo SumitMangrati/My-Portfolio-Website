@@ -1,9 +1,9 @@
 import React from "react";
-import "./About2.css";
+import "../styles/About2.css";
 import { Link } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Education from "./Education";
-import Work from "./Work";
+import Education from "../components/Education";
+import Work from "../components/Work";
 function About2() {
   return (
     <>
@@ -41,7 +41,6 @@ function About2() {
                 <Routes>
                 <Route path="/Education" exact Component={Education}></Route>
                 </Routes>
-
                 <Routes>
                 <Route exact path="/WorkExp" element={<Work/>} />
                 </Routes>

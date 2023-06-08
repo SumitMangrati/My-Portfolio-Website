@@ -141,6 +141,9 @@
         position: relative;
         left: 7rem;
     }
+    .skill-stack{
+        margin: 0 10rem;
+    }
 }
 
 @media screen and (max-width:812px) {
@@ -164,6 +167,11 @@
         right: 1em;
         top: 1rem;
     }    
+
+    .skill-stack{
+        margin: 0 8rem;
+    }
+    
 }
 
 @media screen and (max-width:687px) {

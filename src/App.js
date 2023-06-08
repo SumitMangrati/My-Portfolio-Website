@@ -8,8 +8,8 @@ import {
   Switch
 } from "react-router-dom";
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About2';
+import Hero from './pages/Hero';
+import About from './pages/About2';
 import Skills from './components/Skills';
 function App() {
   return (

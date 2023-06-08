@@ -1,5 +1,5 @@
 import React from 'react'
-import "./AnimatedText.css"
+import "../styles/AnimatedText.css"
 function AnimatedText() {
   return (
    <>

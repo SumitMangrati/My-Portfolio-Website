@@ -1,7 +1,7 @@
 import React from "react";
-import "./Hero.css";
-import AnimatedText from "./AnimatedText";
-import Skills from "./Skills";
+import "../styles/Hero.css";
+import AnimatedText from "../components/AnimatedText";
+import Skills from "../components/Skills";
 function Hero() {
 
   const newTab=URL=>{

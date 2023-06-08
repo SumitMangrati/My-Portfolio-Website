@@ -44,6 +44,32 @@
   }
 
 
+
+
+  @media screen and (max-width:870px) {
+    .skillItem{
+        width: 35px;
+        height: 35px;
+        margin: 0 0.8rem;
+    }
+
+    .skillItem div {
+        width: 1.3rem;
+        height: 1.5rem;
+      }
+
+      .skills-container h2{
+        font-family:Poppins;
+        font-size: 1rem;
+        margin-left:rem ;
+    }
+
+    .skillList-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
   @media screen and (max-width:500px) {
 
     .skillItem{
