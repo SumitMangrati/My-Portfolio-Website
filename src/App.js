@@ -10,7 +10,7 @@ import {
 import Navbar from './components/Navbar';
 import Hero from './pages/Hero';
 import About from './pages/About2';
-import Skills from './components/Skills';
+import Projects from './components/Projects';
 function App() {
   return (
     <>
@@ -18,6 +18,7 @@ function App() {
       <Navbar/>
       <Hero></Hero>
       <About></About>
+      <Projects />
     </Router>
     </>
   );

@@ -1,0 +1,116 @@
+.image-holder img{
+    height: 300px;
+    width: 500px;
+}
+.project-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 12rem;
+    margin-top: 5rem;
+}
+.project-container h2{
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 5rem;
+}
+.project-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0rem;
+}
+.car-project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+.Food-project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Port-project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+.image-holder{
+    margin-right: 7rem;
+}
+.text-holder1{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+.text-holder2{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+}
+
+.project-title{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.project-about{
+    font-size: 0.9rem;
+}
+.gitLink{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: rgb(44, 42, 163);
+    padding: 7px 20px;
+    border-radius: 12px;
+    margin-top: 0.8rem;
+    transition: 0.3s ease;
+}
+.gitLink:hover{
+    transform: translateY(-5px) scale(1.05);
+}
+
+
+ @media screen and (max-width:500px) {
+
+    .project-container{
+        display: flex;
+        flex-direction: column;
+        padding: 0 3rem;
+        margin-top: 5rem;
+    }
+    .project-container h2{
+        text-align: center;
+        font-size: 2.4rem;
+        margin-bottom: 3rem;
+    }
+    .image-holder{
+        margin-left: 8rem;
+    }
+    .image-holder img{
+        height: 200px;
+        width: 350px;
+    }
+    .car-project{
+        flex-direction: column;
+    }
+    .Port-project{
+        flex-direction: column-reverse;
+    }
+    .Food-project{
+        flex-direction: column;
+    }
+    .text-holder1{
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .text-holder2{
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+ }
