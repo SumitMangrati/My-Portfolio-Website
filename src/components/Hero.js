@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import AnimatedText from "./AnimatedText";
+import Skills from "./Skills";
 function Hero() {
 
   const newTab=URL=>{
@@ -37,8 +38,15 @@ function Hero() {
           <div className="blob"></div>
         </div>
         </div>
+
+
         
-      </div>
+        <div className="skill-stack">
+          <div className="skill-div">
+            <Skills/>
+          </div>
+        </div>
+        </div>
     </>
   );
 }

@@ -43,7 +43,7 @@ function About2() {
                 </Routes>
 
                 <Routes>
-                <Route path="/WorkExp" exact Component={Work}></Route>
+                <Route exact path="/WorkExp" element={<Work/>} />
                 </Routes>
             </div>
           </div>

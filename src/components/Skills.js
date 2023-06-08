@@ -1,18 +1,22 @@
 import React from 'react'
+import { skillList } from '../helper/skillList'
+import SkillItem from './SkillItem'
+import "../styles/Skills.css"
 
 function Skills() {
-
-    const a=[
-        {
-            Name:"React",
-            Icon:
-        },
-    ]
   return (
     <>
     <div className="skills-container">
-        <div className="skills-wrapper">
-
+      <h2>Tech Stock</h2>
+        <div className="skillList-wrapper">
+        {skillList.map((skillItem, key) => {
+          return (
+            <SkillItem
+              key={key}
+              image={skillItem.image}
+            />
+          );
+        })}
         </div>
     </div>
     </>
@@ -20,3 +24,4 @@ function Skills() {
 }
 
 export default Skills
+

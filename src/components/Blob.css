@@ -12,7 +12,7 @@
     border: 3px solid black;
     overflow: hidden;
     border-radius: 28% 45% 45% 78% / 23% 45% 67% 78%;
-    animation: move 20000ms linear infinite;
+    animation: move 1ms linear infinite;
 }
 @keyframes move{
     0%,100%{

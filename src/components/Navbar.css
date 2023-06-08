@@ -31,8 +31,13 @@
 .nav-link li a:hover{
     transform: scale(1.05) translateY(4px);
 }
-.navbar-logo img{
-    height: 44px;
+.navbar-logo{
+    text-decoration: none;
+}
+.navbar-logo span{
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 700;
 }
 
 .menu-icon{
@@ -105,13 +110,13 @@
     .navbar{
         height: 24px;
     }
-    .navbar-logo img{
-        height: 25px;
+    .navbar-logo span{
+        font-size: 1rem;
     }
     .navbar-logo{
         position: absolute;
         left: 9px;
-        bottom: 6px;
+        bottom: 12px;
     }
     .container{
         padding: 0.3rem 5rem;
