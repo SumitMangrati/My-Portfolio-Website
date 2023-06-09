@@ -33,6 +33,7 @@
 }
 .navbar-logo{
     text-decoration: none;
+    cursor: pointer;
 }
 .navbar-logo span{
     color: black;

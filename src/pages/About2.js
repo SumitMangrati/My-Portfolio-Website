@@ -7,7 +7,7 @@ import Work from "../components/Work";
 function About2() {
   return (
     <>
-      <div className="about-container">
+      <div className="about-container" id="about">
         <div className="about-wrapper">
           <div className="about-photo-container">
             <img className="image1" src="images/img1.jpg" alt="" srcset="" />

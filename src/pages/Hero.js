@@ -9,7 +9,7 @@ function Hero() {
   }
   return (
     <>
-      <div className="hero">
+      <div className="hero" id="home">
         <div className="hero-container">
         <div className="hero-icons">
           <div className="ig-icon">

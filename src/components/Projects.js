@@ -14,7 +14,7 @@ function Projects() {
 
   return (
     <>
-    <div className="project-container">
+    <div className="project-container" id="projects">
         <h2>Featured Projects</h2>
         <div className="project-wrapper">
 
