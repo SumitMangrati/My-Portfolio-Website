@@ -16,9 +16,9 @@ function App() {
     <>
     <Router>
       <Navbar/>
-      <Hero></Hero>
-      <About></About>
-      <Projects />
+      <Hero/>
+      <About/>
+      <Projects/>
     </Router>
     </>
   );
