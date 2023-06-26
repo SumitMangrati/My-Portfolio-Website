@@ -25,7 +25,7 @@ function About2() {
               eum ab architecto veritatis sequi iusto sunt?
             </div>
             <div className="about-links">
-                <Link className="edu" to="/Education">
+                <Link className="edu" to="/">
                     <li>
                         Education
                     </li>
@@ -39,7 +39,7 @@ function About2() {
             </div>
             <div className="about-route-holder">
                 <Routes>
-                <Route path="/Education" exact Component={Education}></Route>
+                <Route path="/" exact Component={Education}></Route>
                 </Routes>
                 <Routes>
                 <Route exact path="/WorkExp" element={<Work/>} />

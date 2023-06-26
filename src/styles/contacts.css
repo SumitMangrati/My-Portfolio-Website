@@ -1,0 +1,173 @@
+
+.contacts-container{
+    min-height: 50vh;
+    margin-top: 5rem;
+    margin-bottom:1rem;
+    padding: 0;
+    margin: 0;
+}
+.contacts-wrapper{
+    display: flex;
+    box-shadow: 0 0 12px 2px rgba(0,0,0,0.1);
+}
+.contact-information{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem 1rem 2rem;
+}
+.contact-heading{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5px;
+    font-size: 1.1rem;
+}
+.contact-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 4rem;
+}
+.contact-image img{
+    height: 250px;
+}
+.contact-info{
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+.contact-info ion-icon{
+    margin-right: 8px;
+}
+.mobile-info{
+    margin-bottom: 15px;
+}
+.gmail-info{
+    margin-bottom: 15px;
+}
+::placeholder{
+    color: white;
+    opacity: 0.6;
+}
+.contact-form{
+    background-color: #705edc;
+    width: 65%;
+    padding: 1.5rem 2.5rem;
+}
+.contact-form h3{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    opacity: 1;
+}
+.contact-form form{
+    display:flex;
+    flex-direction: column;
+}
+
+#name-box{
+    outline: none;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 4px 15px;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 12px;
+}
+#email-box{
+    outline: none;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 4px 15px;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 12px;
+}
+
+#message-box{
+    outline: none;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 10px 15px;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 12px;
+}
+#submit-button{
+    margin-top: 1.5rem;
+    padding: 8px 24px;
+    border-radius: 12px;
+    border:none;
+    width:145px;
+    transition: 0.3s ease;
+}
+#submit-button:hover{
+    box-shadow: 0 4px 6px 2px rgba(0,0,0,0.3);
+}
+
+
+@media screen and (max-width:700px) {
+    .contact-image img{
+        height: 200px;
+    }
+    .contact-heading{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 5px;
+        font-size: 0.9rem;
+    }
+    .contact-form h3{
+        color: white;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        font-weight: 600;
+        opacity: 1;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .contacts-wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contact-form{
+        width: 83.5%;
+        text-align: center;
+    }
+    .contact-form h3{
+        font-size: 1.6rem;
+    }
+    #submit-button{
+    margin-top: 1.5rem;
+    padding: 8px 24px;
+    border-radius: 12px;
+    border:none;
+    width:120px;
+    font-size: 0.66rem;
+    transition: 0.3s ease;
+    }
+    .contact-heading{
+        display: none;
+    }
+    .contact-image{
+        display: none;
+    }
+    .contact-information{
+        width: 83%;
+        display: flex;
+        padding: 0.4rem 1rem 0.2rem 3rem;
+    }
+    .contact-info{
+        display: flex;
+        font-size: 0.7rem;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .mobile-info{
+        margin-bottom: 0;
+    }
+    .gmail-info{
+        margin-bottom: 0;
+    }
+}

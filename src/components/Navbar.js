@@ -19,7 +19,7 @@ function Navbar() {
 
           <ul className={click?"nav-link active":'nav-link'}>
             <li>
-              <Link to="home" span={true} onClick={handleClick}>Home</Link>
+              <Link to="home" span={true} smooth={true} onClick={handleClick}>Home</Link>
             </li>
 
             <li>

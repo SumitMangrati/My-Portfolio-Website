@@ -6,6 +6,8 @@ import Navbar from './components/Navbar';
 import Hero from './pages/Hero';
 import About from './pages/About2';
 import Projects from './components/Projects';
+import Contacts from './pages/contacts';
+
 function App() {
   return (
     <>
@@ -14,6 +16,7 @@ function App() {
     <Hero/>
     <About/>
     <Projects></Projects>
+    <Contacts/>
     </BrowserRouter>
     </>
   );

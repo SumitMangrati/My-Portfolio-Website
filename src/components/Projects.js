@@ -14,7 +14,8 @@ function Projects() {
 
   return (
     <>
-    <div className="project-container" id="projects">
+    <div id="projects">
+    <div className="project-container">
         <h2>Featured Projects</h2>
         <div className="project-wrapper">
 
@@ -46,7 +47,7 @@ function Projects() {
                     </div>
                     <Link className='gitLink' onClick={()=>newTab("https://github.com/SumitMangrati/My-Portfolio-Website.git")}>Github</Link>
                 </div>
-                <div className="image-holder">
+                <div className="image-holder-2">
                     <img src={port} alt="" srcset="" />
                 </div>
             </div>
@@ -67,6 +68,7 @@ function Projects() {
             </div>
 
         </div>
+    </div>
     </div>
     </>
   )

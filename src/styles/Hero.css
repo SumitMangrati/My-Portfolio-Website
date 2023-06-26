@@ -1,13 +1,12 @@
 .hero{
-    min-height: 90vh;
-    width: 100%;
+    min-height: 100vh;
+    padding: 5rem 0;
 }
 .hero-container{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding:7rem 12rem;
-    margin-top: 3.4rem;
+    padding:5rem 12rem;
 }
 
 
