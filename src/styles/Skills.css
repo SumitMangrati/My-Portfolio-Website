@@ -1,5 +1,5 @@
 .skills-container{
-    width: 100%;
+    width: auto;
     height: auto;
     display: flex;
     justify-content: center;
@@ -86,10 +86,9 @@
       .skills-container h2{
         font-family:Poppins;
         font-size: 0.8rem;
-        position: absolute;
-        right: 16rem;
+        position: inherit;
+        white-space: nowrap;
     }
-
     .skillList-wrapper{
         display: flex;
         align-items: center;

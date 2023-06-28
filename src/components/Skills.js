@@ -7,7 +7,9 @@ function Skills() {
   return (
     <>
     <div className="skills-container">
+      <div className="skill-text">
       <h2>Tech Stock</h2>
+      </div>
         <div className="skillList-wrapper">
         {skillList.map((skillItem, key) => {
           return (
