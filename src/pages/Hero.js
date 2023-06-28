@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/Hero.css";
 import AnimatedText from "../components/AnimatedText";
 import Skills from "../components/Skills";
+import wave from '../assets/wave.png'
 function Hero() {
 
   const newTab=URL=>{
@@ -24,7 +25,10 @@ function Hero() {
         </div>
 
         <div className="hero-text">
+          <div className="hero-heading">
           <h1>Hi, I am Sumit</h1>
+          <img src={wave} alt="" srcset=""  id="wave"/>
+          </div>
           <div className="test">
             <AnimatedText />
           </div>

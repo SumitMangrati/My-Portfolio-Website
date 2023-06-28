@@ -16,34 +16,30 @@ function About2() {
           <div className="about-holder">
             <h1>About Me</h1>
             <div className="description-holder">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Dignissimos ab rerum corporis dolorum eligendi nisi accusamus,
-              minima voluptatum? Cupiditate veritatis vitae soluta esse
-              provident doloremque iure accusantium deserunt nemo repellendus
-              deleniti atque inventore porro magnam in aut molestias aperiam
-              distinctio voluptates expedita ex consequuntur, fuga sed! Tenetur
-              eum ab architecto veritatis sequi iusto sunt?
+              Always have been keen to learning rather than studying. So, does
+              that make me a nerd? An aspiring developer interested in the
+              domain of Cloud Engineering,Dev-Ops and UI/UX designing. Exploring
+              every gist of technology, learning expanding my domain of knowledge
+              while travelling the road to a succcessfull Engineer.Looking
+              forward to collaborate and work with several other to help me on
+              my journey.
             </div>
             <div className="about-links">
-                <Link className="edu" to="/">
-                    <li>
-                        Education
-                    </li>
-                </Link>
+              <Link className="edu" to="/">
+                <li>Education</li>
+              </Link>
 
-                <Link className="wexp" to="/WorkExp">
-                    <li>Work Experience</li>
-                </Link>
-
-
+              <Link className="wexp" to="/WorkExp">
+                <li>Work Experience</li>
+              </Link>
             </div>
             <div className="about-route-holder">
-                <Routes>
+              <Routes>
                 <Route path="/" exact Component={Education}></Route>
-                </Routes>
-                <Routes>
-                <Route exact path="/WorkExp" element={<Work/>} />
-                </Routes>
+              </Routes>
+              <Routes>
+                <Route exact path="/WorkExp" element={<Work />} />
+              </Routes>
             </div>
           </div>
         </div>
