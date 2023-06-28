@@ -1,9 +1,11 @@
+
 .about-container{
    padding: 6rem 0;
     margin: 1.5rem 9rem 1rem 9rem;
     box-shadow: 0 0 12px 12px rgba(0,0,0,0.1);
     border-radius: 40px;
     height: 500px;
+   
 }
 .about-wrapper{
     padding: 1rem 5rem 5rem;
@@ -148,21 +150,23 @@
     .about-photo-container{
         margin-top: 2rem;
         margin-bottom: 4rem;
-        margin-left: 02rem;
+        margin-left: 5rem;
     }
     .image1{
         bottom: 7rem;
+        right: 3rem;
     }
     .image2{
-        left: -1.5rem;
-        top: -3rem;
+        left: 1rem;
+        top: -8.5rem;
     }
 
     .about-container{
-        padding: 2.5rem 1rem 7rem;
+        padding: 2.5rem 1rem 10rem;
     }
     .about-holder{
         margin-right: 5.6rem;
+        margin-top: -4rem;
     }
     .about-holder h1{
         text-align: center;

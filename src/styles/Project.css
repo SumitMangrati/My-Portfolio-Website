@@ -162,11 +162,18 @@
         margin-bottom: 3rem;
     }
     .image-holder{
-        margin-left: 8rem;
+        margin-left: 4rem;
+    }
+    .image-holder-2{
+        margin-right: 4rem;
     }
     .image-holder img{
-        height: 200px;
-        width: 350px;
+        height: 170px;
+        width: 290px;
+    }
+    .image-holder-2 img{
+        height:170px;
+        width:290px;
     }
     .car-project{
         flex-direction: column;
