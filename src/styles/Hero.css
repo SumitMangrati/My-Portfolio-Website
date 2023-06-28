@@ -302,7 +302,7 @@
     .blob-container{
         position: relative;
         bottom: 4rem;
-        left:28%;
+        left:20%;
     }
     .hero-text{
        position: inherit;
@@ -312,10 +312,12 @@
     .hero-text h1{
         font-size: 1.9rem;
        position: inherit;
+       white-space: nowrap;
     }
+
     .test{
        position: relative;
-       right: 3.4rem;     
+       right: 4.8rem;     
     }
     .des{
         position: inherit;
@@ -326,8 +328,7 @@
     .hero-icons div{
         margin: 5px;
         position: relative;
-        bottom: 2rem;
-        left: 2rem;
+        ;
     }
     .hero-icons ion-icon{
         font-size:1rem

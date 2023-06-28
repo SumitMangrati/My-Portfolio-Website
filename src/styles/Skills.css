@@ -75,7 +75,7 @@
     .skillItem{
         width: 25px;
         height: 25px;
-        margin: 0 0.5rem;
+        margin: 0 0.4rem;
     }
 
     .skillItem div {
@@ -86,13 +86,14 @@
       .skills-container h2{
         font-family:Poppins;
         font-size: 0.8rem;
-        position: inherit;
+        position: relative;
         white-space: nowrap;
+        left: 3rem;
     }
     .skillList-wrapper{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-left: 5rem;
+        margin-left: 4rem;
     }
   }

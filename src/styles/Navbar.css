@@ -112,6 +112,7 @@
 @media screen and (max-width:500px) {
     .navbar{
         height: 24px;
+        width: 100%;
         
     }
     .navbar-logo span{

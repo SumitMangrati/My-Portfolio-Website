@@ -46,17 +46,17 @@ function contacts() {
 
           <div className="contact-form">
             <h3>Contact Me</h3>
-            <form action="" onSubmit={submitHandler}>
-              <input type="text" name="" id="name-box" placeholder="name" />
-              <input type="email" name="" id="email-box" placeholder="email" />
+            <form action="https://formspree.io/f/xknlwzlw" method="POST">
+              <input type="text" name="username" id="name-box" placeholder="name" />
+              <input type="email" name="email" id="email-box" placeholder="email" />
               <textarea
-                name=""
+                name="message"
                 id="message-box"
                 cols="30"
                 rows="10"
                 placeholder="your message"
               ></textarea>
-              <input type="submit" value="Send Message" id="submit-button" />
+              <input type="submit"value="Send Message" id="submit-button" />
             </form>
           </div>
         </div>
