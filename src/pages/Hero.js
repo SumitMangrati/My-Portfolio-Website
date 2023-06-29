@@ -2,7 +2,8 @@ import React from "react";
 import "../styles/Hero.css";
 import AnimatedText from "../components/AnimatedText";
 import Skills from "../components/Skills";
-import wave from '../assets/wave.png'
+import wave from '../assets/wave.png';
+import res from "../../src/resume.pdf"
 function Hero() {
 
   const newTab=URL=>{
@@ -17,10 +18,10 @@ function Hero() {
             <ion-icon onClick={()=>newTab('https://www.instagram.com/_zx.shjwe_/')} name="logo-instagram"></ion-icon>
           </div>
           <div className="lin-icon">
-            <ion-icon name="logo-linkedin"></ion-icon>
+            <ion-icon onClick={()=>newTab('https://www.linkedin.com/in/sumit-mangrati-a83545250')} name="logo-linkedin"></ion-icon>
           </div>
           <div className="gh-icon">
-            <ion-icon name="logo-github"></ion-icon>
+            <ion-icon onClick={()=>newTab('https://github.com/SumitMangrati')} name="logo-github"></ion-icon>
           </div>
         </div>
 
@@ -36,7 +37,7 @@ function Hero() {
           <span className="des">
             An enthusiast programmer,developer based in Kolkata,India |📍
           </span>
-          <button className="hero-contact-button">Contact Me<ion-icon name="send-outline"></ion-icon></button>
+          <a href={res} download="Sumit_Mangrati_resume"><button className="hero-contact-button">Resume<ion-icon name="send-outline"></ion-icon></button></a>
         </div>
         <div className="blob-container">
           <div className="blob"></div>

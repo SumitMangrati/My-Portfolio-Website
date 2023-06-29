@@ -155,9 +155,9 @@
         display: none;
     }
     .contact-information{
-        width: 83%;
+        width: auto;
         display: flex;
-        padding: 0.4rem 1rem 0.2rem 3rem;
+        padding: 0.4rem 1rem 0.2rem 0.4rem;
     }
     .contact-info{
         display: flex;
